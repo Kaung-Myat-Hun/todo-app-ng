@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,900;1,400;1,500&display=swap');
+
+body{
+  font-family: poppin;
+}
+
+.todoContainer{
+  width: 80%;
+}
+.todoContainer li{
+  list-style-type: number;
+  transition: 0.3s all ease-in-out;
+  font-size: 1.5rem;
+  position: relative;
+  padding-top: 15px;
+}
+.todoContainer li span:hover{
+  cursor: pointer;
+  color: crimson;
+
+}
+.container input{
+  width: 25vw;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border: 1px solid #7f7f7f7e;
+  border-radius: 5px;
+}
+.container input:focus{
+  outline: none;
+}
+.container button{
+  font-size: 1.2rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  margin-left: 5px;
+}
+section{
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+}
+.todoContainer li img{
+  position: absolute;
+  margin-top: -5px !important;
+  transition: 0.3s all ease-in-out;
+}
+.todoContainer li img:hover{
+  transform: rotate(180deg);
+}
