@@ -9,7 +9,7 @@ export class AppComponent {
   title:string = 'Angualr Todo Application';
   subtitle: string = 'Write some todos in the form'
   userInput:string ='';
-  todoList: string[] = []
+  todoList: string[] = ['Starting Angular at 20th April', 'Still Trying With My Best']
 
   constructor() {}
 
