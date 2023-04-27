@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title:string = 'angualr-todo-app';
-  subtitle: string = 'Write something to do in the form'
+  title:string = 'Angualr Todo Application';
+  subtitle: string = 'Write some todos in the form'
   userInput:string ='';
   todoList: string[] = []
 
