@@ -19,7 +19,7 @@ export class AppComponent {
     this.todoList = this.todoList.concat(this.userInput)
     this.userInput=""
     }else{
-      alert("sorry please enter field")
+      alert("sorry please enter input field")
     }
   }
 
